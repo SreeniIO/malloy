@@ -45,6 +45,7 @@ export {Dialect, qtz} from './dialect';
 export type {DialectFieldList, QueryInfo} from './dialect';
 export {StandardSQLDialect} from './standardsql';
 export {PostgresDialect} from './postgres';
+export {IgniteDialect} from './ignite';
 export {DuckDBDialect} from './duckdb';
 export {SnowflakeDialect} from './snowflake';
 export {TrinoDialect} from './trino';

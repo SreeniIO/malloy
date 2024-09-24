@@ -27,6 +27,7 @@ import {PostgresDialect} from './postgres';
 import {SnowflakeDialect} from './snowflake';
 import {StandardSQLDialect} from './standardsql';
 import {PrestoDialect, TrinoDialect} from './trino';
+import {IgniteDialect} from './ignite';
 
 const dialectMap = new Map<string, Dialect>();
 
@@ -52,3 +53,4 @@ registerDialect(new DuckDBDialect());
 registerDialect(new SnowflakeDialect());
 registerDialect(new TrinoDialect());
 registerDialect(new PrestoDialect());
+registerDialect(new IgniteDialect());
